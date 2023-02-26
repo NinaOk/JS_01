@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+header {
+    background-color: lightgray;
+    height: 50px;
+}
+nav{
+    /*border: 3px dotted black;*/
+    height: inherit;
+    display: flex;
+    /*justify-content: start;*/
+    align-items: center;
+
+}
+nav > a{
+    text-decoration: none;
+    color: black;
+    padding: 0 15px;  
+    font-size: 30px; 
+}
+.about_us {
+    display: flex;
+    flex-direction: reverse;
+    justify-content:center;
+}
+footer {
+    background-color: lightgray;
+    height: 50px;
+}
+.about_us-description {
+    display: flex;
+    flex-direction: column;    
+}
+.about_us-description {
+    padding: 5px;   
+}
+.my_game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+.my_game > * {
+    text-align: center;
+}
+.my_game input, .my_game button {
+    border: none;
+    padding: 10px;
+    min-height: 30px;
+    margin: 5px
+}
+.my_game button {
+    width: max-content;
+    background-color: aquamarine;
+    padding: o 10 px;
+    border-radius: 5px;
+}
+.my_game input {
+    background-color: lightgray;
+    outline: none;
+}
+.choosed_block{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.choosed_block-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: 650px;
+}
+.choosed_block-container > div {
+    width: 150px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkkhaki;
+}
+.choosed_element {
+    border: 3px solid black;
+}
+img{
+    width: 300px;
+    height: 300px;
+    margin: 10px 100px;
+    object-fit: cover;
+    object-position: top;
+}
+span{
+    font-size: 20px;
+}
+.name{
+    color:red;
+}
+#skill{
+    color: green;
+}
+#skillOld{
+    color: blue;
+}
+#islove{
+    color: orchid;
+}
+h1{
+    padding: 0;
+    margin: 30px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
