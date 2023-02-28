@@ -14,14 +14,14 @@
 <body>
     <header>
         <nav>
-            <a href="#">About us</a>
-            <a href="#">Hobby</a>
-            <a href="#">Contact</a>
+            <a href="#aboutUs">About us</a>
+            <a href="#myGame">Games</a>
+            <a href="#postsBlock">Blog</a>
 
         </nav>
     </header>
     <main>
-        <div class="about_us">
+        <div class="about_us" id="aboutUs">
             <div>
                 <img src="./im.jpg"
                     alt="image" title="title">
@@ -33,15 +33,15 @@
                 </p>
                 <p>
                     <strong>Каким языком программирования владеете?</strong>
-                    <span>JS</span>
+                    <span>Python</span>
                 </p>
                 <p>
                     <strong>Какой язык изучаете?</strong>
-                    <span id="skill"></span> 
+                    <span id="skill">JS</span> 
                 </p>
                 <p>
                     <strong>Hobby</strong>
-                    <span></span>
+                    <span>Alpine skiing</span>
                 </p>
             </div>
         </div>
@@ -68,7 +68,17 @@
                 <div>10</div>
                 <div>11</div>
                 <div>12</div>
-            </div>        
+            </div> 
+            <div class="posts_block" id="postsBlock">
+                <h1>Блог</h1>
+                <button>Показать посты</button>
+                <div class="posts_block-container">
+                    <!-- <p>
+                        <h3></h3>
+                        <span></span>
+                    </p> -->
+                </div>
+            </div>       
         </div>
     </main>
     <footer>2023 </footer>
